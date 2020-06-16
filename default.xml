@@ -14,7 +14,7 @@
   <project name="96boards/oe-rpb-manifest" path="conf" remote="github">
     <linkfile dest="setup-environment" src="setup-environment-internal"/>
   </project>
-  <project name="Freescale/meta-freescale" path="layers/meta-freescale" remote="github"/>
+  <project name="petegriffin/meta-freescale" path="layers/meta-freescale" remote="github" revision="ccaf243cd6459ef2d22d293055be3b37ddfed650"/>
   <project name="OSSystems/meta-browser" path="layers/meta-browser" remote="github"/>
   <project name="git/meta-arm" path="layers/meta-arm" remote="yocto"/>
   <project name="git/meta-intel" path="layers/meta-intel" remote="yocto"/>
